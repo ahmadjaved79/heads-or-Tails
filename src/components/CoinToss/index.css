@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.coin-container {
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 27px;
+  align-items: center;
+  margin: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-family: 'Bree Serif';
+  color: #a35200;
+}
+
+.description {
+  color: #334155;
+  font-size: 26px;
+  font-family: 'Bree Serif';
+}
+
+.toss-image {
+  height: 100px;
+  width: 100px;
+}
+
+button {
+  background-color: #f9d423;
+  color: #a35200;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.result-container {
+  display: flex;
+}
+
+.count{
+  margin: 7px;
+}
